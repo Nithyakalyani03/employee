@@ -7,7 +7,7 @@ using {cuid,managed} from '@sap/cds/common';
 
 entity Employees:cuid, managed{
 
-@title :'EmployeeID'
+@title :'EmpID'
 Employee_id: String(5);
 @title :'First Name'
 first_name: String(10) @mandatory;
